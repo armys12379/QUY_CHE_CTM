@@ -29,7 +29,9 @@
 - `/00_PHAP_LY/04_THUE/TT_50_2026_guide.md`
 
 ## 5. Lĩnh vực Lao động - Tiền lương (`/05_LAO_DONG_TL_BHXH/`)
-- *(Vui lòng bổ sung các file liên quan tại đây)*
+- `/00_PHAP_LY/05_LAO_DONG_TL_BHXH/Luat_LaoDong_45_2019_system.md`
+- `/00_PHAP_LY/05_LAO_DONG_TL_BHXH/Luat_BaoHiem_41_2024_system.md`
+- `/00_PHAP_LY/05_LAO_DONG_TL_BHXH/ND_158_2025_system.md`
 
 ## 6. Nguyên tắc kiểm tra và Truy xuất
 - **Thứ tự ưu tiên:** Khi có sự khác biệt về nội dung, phải ưu tiên theo thứ tự: Luật -> Nghị định -> Thông tư.
