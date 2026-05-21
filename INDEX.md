@@ -1,7 +1,7 @@
-# 01_QUY_CHE_NB — CHỈ MỤC HỆ THỐNG QUY CHẾ NỘI BỘ
-> **Cập nhật lần cuối:** 19/05/2026
+# CHỈ MỤC HỆ THỐNG — CTM PROJECT KNOWLEDGE
+> **Cập nhật lần cuối:** 21/05/2026
 > **Người quản lý:** CFO – Kế toán trưởng CTM
-> **Nguyên tắc:** Chỉ liệt kê file đã thực sự tồn tại trong project knowledge (đã sync). File trên Notion chưa sync = không liệt kê.
+> **Nguyên tắc:** Chỉ liệt kê file **đã thực sự sync** vào project knowledge. File còn trên Notion = không liệt kê.
 
 ────────────────────────────────────────────────────────────
 
@@ -10,14 +10,15 @@
 | File | Mô tả |
 |---|---|
 | `README.md` | Tổng quan dự án, cấu trúc thư mục, quy trình biên soạn & cập nhật |
-| `CLAUDE.md` | Chỉ dẫn trợ lý Kế toán trưởng — Phiên bản 2.1 — 17/05/2026 |
+| `CLAUDE.md` | Chỉ dẫn trợ lý Kế toán trưởng — Phiên bản 3.0 — 21/05/2026 |
 | `CONTEXT.md` | Bối cảnh hệ thống: chế độ KT, cấu trúc repo, nguyên tắc tra cứu |
+| `INDEX.md` | File này — chỉ mục toàn bộ hệ thống |
 | `Run_ChuyenFileLuuTru.md` | System command: quy tắc chuyển file từ Notion sang `.md` |
-| `Run_QuyUocVanBanCTM.md` | Quy ước văn phong trình bày văn bản CTM (tách từ CLAUDE.md) |
+| `Run_QuyUocVanBanCTM.md` | Quy ước văn phong trình bày văn bản CTM |
 
 ────────────────────────────────────────────────────────────
 
-## B. THƯ MỤC `00_PHAP_LY/`
+## B. `00_PHAP_LY/`
 
 | File | Mô tả |
 |---|---|
@@ -35,7 +36,7 @@
 | File | Mô tả |
 |---|---|
 | `Luat_TTATGT_36_2024_System.md` | Luật TTATGT 36/2024 — Điều 60: bản chất pháp lý đào tạo lái xe |
-| `ND_94_2026_system.md` | Nghị định 94/2026 |
+| `ND_94_2026_system.md` | Nghị định 94/2026 — điều kiện cơ sở đào tạo lái xe |
 | `TT_14_2025_guide.md` | Thông tư 14/2025/TT-BXD |
 | `TT_37_2023_guide.md` | Thông tư 37/2023 |
 
@@ -73,87 +74,85 @@
 
 ────────────────────────────────────────────────────────────
 
-## C. THƯ MỤC `01_QUY_CHE_NB/HT_TaiChinh_KeToan/`
+## C. `01_QUY_CHE_NB/HT_TaiChinh_KeToan/`
 
-> **Phiên bản:** 1.0 · Ban hành: 05/2026 · 7 phần · 51 điều
+> **Phiên bản hệ thống:** 1.0 · Ban hành: 05/2026 · 7 phần · 51 điều
 
 ### Quy chế chính (P0–P7)
 
-| File | Nội dung tóm tắt | Trạng thái |
+| File | Mô tả | Trạng thái |
 |---|---|---|
-| `P0_HỆ THỐNG QUẢN LÝ TÀI CHÍNH - KẾ TOÁN.md` | Tổng quan hệ thống; bảng điều khoản P1–P7 (51 điều); danh sách phụ lục PL01–PL08 + NQ-HĐQT + BB-BGHS; lịch cập nhật bắt buộc; liên kết Notion | ĐÃ BAN HÀNH |
-| `P1_QUY ĐỊNH CHUNG.md` | Phạm vi điều chỉnh (Đ.1); đối tượng áp dụng (Đ.2); căn cứ pháp lý (Đ.3); giải thích từ ngữ (Đ.4); 7 nguyên tắc TC (Đ.5); bộ máy KT 5 vị trí (Đ.6); năm TC & kỳ KT (Đ.7) | ĐÃ BAN HÀNH |
-| `P2_QUẢN LÝ THU.md` | 4 nhóm khoản thu; ghi nhận DT 3 mốc; quản lý TK 33871/33872; chính sách HP & giảm HP; xử lý đặc biệt; đối chiếu DT định kỳ | ĐÃ BAN HÀNH |
-| `P3_QUẢN LÝ CHI.md` | CP 4 nhóm A/B/C/D; 4 HT giao khoán (HT1–HT4); 3 điều kiện CP được trừ TNDN; NL theo định mức PL08; TSCĐ; quy trình phê duyệt chi 6 bước; quyết toán TK 141 trong 5 ngày LV | ĐÃ BAN HÀNH |
-| `P4_QUAN_HE_TAI_CHINH_DOI_TAC_LIEN_KET.md` | Phiên bản 1.0 — phân loại đối tác; khấu trừ TNCN tại nguồn 3 tư cách; ngưỡng HKD NĐ 68/2026; hồ sơ bắt buộc (HĐ + PL05 + PL06 + 06/MST); 4 dấu hiệu GV vs lao động | ĐÃ BAN HÀNH |
-| `P4_Quan_He_Tai_Chinh_DTLK_v2.md` | **Phiên bản 2.0** — tích hợp hệ thống HĐ HTLK 5 bước; 6 vai trò đối tác (GVLK/VPTS/ĐTHH/ĐTCX); cơ chế PL CK; bổ sung R9–R12 rủi ro; Điều 26.4 kiêm nhiệm ĐTCX+GVLK; danh mục biểu mẫu P4 đầy đủ | ĐÃ BAN HÀNH |
-| `P5_GIÁ THÀNH – GIÁ VỐN – KẾT QUẢ KINH DOANH.md` | 3 nhóm đối tượng giá thành; mã đối tượng CP; HT1–HT4; phân bổ CP chung; xác định KQKD; đối chiếu 3 chiều DT–CP–Giá thành; phân công trách nhiệm lập BM-P5-01÷06 | ĐÃ BAN HÀNH |
-| `P6_Báo cáo tài chính.md` | 4 BC bắt buộc TT99 (B01/B02/B03/B09-DN); nguyên tắc lập; lịch nghĩa vụ thuế GTGT/TNDN/TNCN/BHXH; quy trình phê duyệt BCTC 7 bước | ĐÃ BAN HÀNH |
-| `P7_Kiểm soát nội bộ và Lưu trữ.md` | Ma trận phân quyền 11 nghiệp vụ; tách biệt 5 cặp chức năng; kiểm soát TK 33871/33872 & TK 141; kiểm tra nội bộ hàng ngày/tuần/tháng/quý/năm; lưu trữ 10 năm; bàn giao nhân sự | ĐÃ BAN HÀNH |
+| `P0_HỆ THỐNG QUẢN LÝ TÀI CHÍNH - KẾ TOÁN.md` | Tổng quan hệ thống; bảng điều khoản P1–P7; danh sách phụ lục; lịch cập nhật | SOẠN THẢO |
+| `P1_QUY ĐỊNH CHUNG.md` | Phạm vi, đối tượng, căn cứ pháp lý, giải thích từ ngữ, 7 nguyên tắc TC, bộ máy KT 5 vị trí | SOẠN THẢO |
+| `P2_QUẢN LÝ THU.md` | 4 nhóm khoản thu; ghi nhận DT 3 mốc; quản lý TK 33871/33872; chính sách HP & giảm HP | SOẠN THẢO |
+| `P3_QUẢN LÝ CHI.md` | CP 4 nhóm A/B/C/D; 4 HT giao khoán; 3 điều kiện CP được trừ TNDN; quy trình phê duyệt 6 bước | SOẠN THẢO |
+| `P4_QUAN_HE_TAI_CHINH_DOI_TAC_LIEN_KET.md` | Phiên bản 1.0 — phân loại đối tác; khấu trừ TNCN; ngưỡng HKD; hồ sơ bắt buộc | SOẠN THẢO |
+| `P4_Quan_He_Tai_Chinh_DTLK_v2.md` | **Phiên bản 2.0** — tích hợp HĐ HTLK 5 bước; 6 vai trò đối tác; cơ chế PL CK; R9–R12 | SOẠN THẢO |
+| `P5_GIÁ THÀNH – GIÁ VỐN – KẾT QUẢ KINH DOANH.md` | 3 nhóm đối tượng giá thành; HT1–HT4; phân bổ CP chung; xác định KQKD | SOẠN THẢO |
+| `P6_Báo cáo tài chính.md` | 4 BC bắt buộc TT99; lịch nghĩa vụ thuế; quy trình phê duyệt BCTC 7 bước | SOẠN THẢO |
+| `P7_Kiểm soát nội bộ và Lưu trữ.md` | Ma trận phân quyền 11 nghiệp vụ; kiểm tra nội bộ định kỳ; lưu trữ 10 năm | SOẠN THẢO |
 
-> ⚠️ **Lưu ý:** P4 tồn tại **2 phiên bản** trong project knowledge. P4 v2.0 là bản cập nhật mới nhất — áp dụng ưu tiên. Cần xác nhận tên file chính xác của P4 v1.0 và xem xét deprecate.
+> ⚠️ **Lưu ý P4:** Tồn tại 2 phiên bản. P4 v2.0 là bản mới nhất — ưu tiên áp dụng. Cần xem xét deprecate P4 v1.0.
 
 ### Phụ lục (PL)
 
-| File | Nội dung tóm tắt | Trạng thái |
+| File | Mô tả | Trạng thái |
 |---|---|---|
-| `PL01_QUY CHE HACH TOAN KE TOAN NOI BO.md` | Quy chế hạch toán kế toán nội bộ — 10 chương, 27 điều; TK sử dụng; phương pháp hạch toán đặc thù ngành | HOÀN THÀNH DỰ THẢO |
-| `PL02_DANH MUC TAI KHOAN KE TOAN CHI TIET.md` | Danh mục TK chi tiết theo TT99; quy ước TK con +1 ký tự; ký hiệu ⭐🔒🆕✏️; ghi chú đặc thù CTM Nhóm 1–9; quy trình mở TK mới | HOÀN THÀNH DỰ THẢO |
+| `PL01_QUY CHE HACH TOAN KE TOAN NOI BO.md` | Quy chế hạch toán KT nội bộ — 10 chương, 27 điều; TK sử dụng; phương pháp hạch toán đặc thù | **HOÀN THÀNH DỰ THẢO** |
+| `PL02_DANH MUC TAI KHOAN KE TOAN CHI TIET.md` | Danh mục TK chi tiết theo TT99; quy ước TK con; ghi chú đặc thù CTM Nhóm 1–9 | **HOÀN THÀNH DỰ THẢO** |
 
-> **Chưa sync thành file `.md`** (còn trên Notion): PL04 — Mẫu HĐ ĐTLK Đào tạo Thực hành; PL08 — Bảng Định mức CP & Đơn giá Giao khoán; NQ-HĐQT — Cơ chế TC & Phân quyền Phê duyệt Chi; BB-BGHS — Bàn giao Hồ sơ Nhân sự KT.
-
-### Liên kết văn bản pháp lý căn cứ
-
-| Phần | Văn bản pháp lý chính |
-|---|---|
-| P1 | Luật KT 88/2015; TT 99/2025/TT-BTC; NĐ 94/2026; TT 14/2025/TT-BXD |
-| P2 | TT 99/2025; Luật GTGT 48/2024; NĐ 174/2025; CV 6493/CT-CS |
-| P3 | TT 99/2025; TT 20/2026/TT-BTC; Luật BHXH 41/2024; NĐ 320/2025 |
-| P4 | Luật TNCN 109/2025; NĐ 68/2026; NĐ 141/2026; TT 18/2026; TT 50/2026 |
-| P5 | TT 99/2025; NĐ 320/2025 |
-| P6 | TT 99/2025; Luật GTGT 48/2024; NĐ 174/2025; Luật TNDN 67/2025 |
-| P7 | Luật KT 88/2015 (Đ.41); Luật QLT 38/2019; Luật BHXH 41/2024 |
+> **Chưa sync (còn trên Notion):** PL04 — Mẫu HĐ ĐTLK; PL08 — Bảng Định mức CP & Đơn giá Giao khoán; NQ-HĐQT — Cơ chế TC & Phân quyền; BB-BGHS — Bàn giao Hồ sơ Nhân sự KT.
 
 ────────────────────────────────────────────────────────────
 
-## D. THƯ MỤC `02_BIEU_MAU_HT/`
+## D. `02_BIEU_MAU_HT/`
 
-| File | Nội dung tóm tắt | Trạng thái |
+### Biểu mẫu vận hành (BM)
+
+| File | Mô tả | Trạng thái |
 |---|---|---|
-| `BM-06_Xuat_kho_NhienLieu_NhatKyXe.md` | Phiếu xuất kho nhiên liệu & nhật ký xe; liên kết TK 1521, TK 141, BM-08, BM-12 | DỰ THẢO |
-| `BM-07_NghiemThu_KhoaHoc.md` | Biên bản nghiệm thu khóa học; kích hoạt ghi nhận DT TK 5113A; liên kết BM-09, BM-10 | DỰ THẢO |
-| `BM-09_Chi_phi_Do_dang_TK154.md` | Chi phí dở dang TK154; nhận đầu vào từ BM-08, BM-07, BM-11; đầu ra cho BM-10 | DỰ THẢO |
-| `BM-10_GiaThanhKhoaHoc.md` | Giá thành khóa học; công thức CP dở dang; liên kết BM-08, BM-09, BM-07 → BM-11 | DỰ THẢO |
-| `BM-11_XacDinh_GiaVon_KC154_632.md` | Xác định giá vốn; kết chuyển TK 154A → TK 632; nhận từ BM-10; xuất sang sổ cái TK 632 | DỰ THẢO |
-| `BM-12_CP_BatThuong_VuotDinhMuc.md` | CP bất thường vượt định mức; phân cấp phê duyệt 3 mức (KTT/PGĐ TC/TGĐ); liên kết BM-06, BM-07, BM-08 | DỰ THẢO |
-| `PL07_BieuMucThu_CTM.md` | Biểu mức thu học phí, phí sát hạch, cho thuê xe, lưu trú, các khoản thu hộ Nhà nước | ĐÃ BAN HÀNH |
+| `BM-06_XuatKho_NhienLieu_NhatKyXe.md` | Phiếu xuất kho nhiên liệu & nhật ký vận hành xe tập lái | SOẠN THẢO |
+| `BM-07_NghiemThu_KhoaHoc.md` | Biên bản nghiệm thu khóa học — căn cứ ghi nhận DT TK 5113A | SOẠN THẢO |
+| `BM-08_TongHop_ChiPhi_KhoaHang.md` | Tổng hợp chi phí theo khóa/hạng; đầu vào BM-09, BM-10 | SOẠN THẢO |
+| `BM-09_Chi_phi_Do_dang_TK154.md` | Chi phí dở dang TK154 — theo dõi khóa chưa hoàn thành | SOẠN THẢO |
+| `BM-10_GiaThanhKhoaHoc.md` | Giá thành khóa học — tổng hợp từ BM-08, BM-09 | SOẠN THẢO |
+| `BM-11_GiaVon_KetChuyen_TK154_632.md` | Xác định giá vốn — kết chuyển TK154 → TK632 | SOẠN THẢO |
+| `BM-12_ChiPhi_BatThuong_VuotDinhMuc.md` | Chi phí bất thường/vượt định mức — tách TK811; cần phê duyệt GĐ | SOẠN THẢO |
 
-### 02_BIEU_MAU_HT / HOPDONG
+### Hệ thống Hợp đồng HTLK (`02_BIEU_MAU_HT/HOPDONG/`)
 
-> Hệ thống hợp đồng hợp tác liên kết đào tạo — **5 bước** · Phiên bản 1.0 · 05/2026
+> Hệ thống 5 bước — từ khung hợp đồng đến quyết toán
 
-| File | Nội dung tóm tắt | Trạng thái |
+| File | Mô tả | Trạng thái |
 |---|---|---|
-| `BUOC1_HĐ_HTLK_Dao_Tao_v1.md` | **Hợp đồng khung HTLK** (…/HĐHTLK-CTM) — xác lập tư cách pháp lý, 4 vai trò đối tác (GVLK/VPTS/ĐTHH/ĐTCX), căn cứ pháp lý, xử lý thuế theo tư cách, phân biệt dịch vụ/lao động; danh sách 7 Phụ lục kèm theo | DỰ THẢO |
-| `BUOC2_PLA_Hoa_Hong_Tuyen_Sinh_v1.md` | **PL A — Hoa hồng tuyển sinh** — mức HH theo bậc xe hợp tác; xử lý HV hủy; bảng thuế 4 tư cách; 3 điều kiện chi phí được trừ TNDN | DỰ THẢO |
-| `BUOC2_PLB_Khoan_Giang_Day_CaNhan_v1.md` | **PL B — Khoán giảng dạy (cá nhân không ĐKKD)** — đơn giá đ/HV hoàn thành; khấu trừ TNCN 10% tại nguồn; thanh toán 7 ngày LV sau BM-07 | DỰ THẢO |
-| `BUOC2_PLC_Khoan_Giang_Day_HKD_v1.md` *(cần xác nhận)* | **PL C — Khoán giảng dạy (HKD/CNKD)** — thuế khoán 7%; bảng kê PL06 hoặc HĐ điện tử | DỰ THẢO |
-| `BUOC2_PLD_Khoan_DaoTao_CoPhuongTien_v1.md` *(cần xác nhận)* | **PL D — Khoán đào tạo có phương tiện** — HKD/CNKD tự lo xe; CTM ủy quyền TT nhiên liệu; thuế khoán 7% | DỰ THẢO |
-| `BUOC2_PLE_Khoan_TronGoi_PhapNhan_v1.md` | **PL E — Khoán trọn gói (pháp nhân)** — GV + xe + NL + vận hành; HĐ GTGT điện tử bắt buộc trước khi TT | DỰ THẢO |
-| `BUOC2_PLF_ChoThue_Xe_v1.md` *(cần xác nhận)* | **PL F — Cho thuê xe tập lái** — thanh toán theo quý; thuế khoán 10% (HKD); xe sẵn sàng = phát sinh tiền thuê | DỰ THẢO |
-| `BUOC3_PLCK_CamKet_Khoan_TheoKy_v1.md` | **PL CK — Cam kết khoán theo kỳ** — ký trước khi có DS HV; đặt cọc TK 33871; tạm ứng TK 141; tự động chuyển thành PL C/D/E khi ký Biên bản xác nhận DS HV | DỰ THẢO |
-| `BUOC4_QuyTrinh_ThucHien_QuyetToan_v1.md` | **Quy trình thực hiện & quyết toán** — 4 giai đoạn: chuẩn bị / trong khóa / nghiệm thu / quyết toán; checklist BM-07; bảng nhật ký vận hành BM-NKX | DỰ THẢO |
-| `BUOC5_MucChi_DTLK_HopTacXe_HoaHong_v1.md` | **Bảng định mức chi nội bộ** — TGĐ phê duyệt; mức HH PL A; đơn giá khoán PL B/C/D/E; đơn giá thuê xe PL F; không phát hành cho đối tác | DỰ THẢO |
-
-> **Lưu ý:** Các file đánh dấu *(cần xác nhận)* — tên file suy luận từ cấu trúc hệ thống, cần xác minh tên thực tế khi sync lần tiếp theo.
+| `BUOC1_HopDong_HTLK_KhungChung_v1.md` | HĐ HTLK khung chung — điều khoản chung; phụ lục PL A–F | SOẠN THẢO |
+| `BUOC2_PLA_HoaHong_TuyenSinh_v1.md` | PL A — Hoa hồng tuyển sinh; thanh toán theo HV thực nhập học | SOẠN THẢO |
+| `BUOC2_PLB_Khoan_DaoTao_ThucHanh_v1.md` | PL B — Khoán đào tạo thực hành; GV cung cấp xe + NL | SOẠN THẢO |
+| `BUOC2_PLC_Khoan_DaoTao_KhongPhuongTien_v1.md` | PL C — Khoán đào tạo không phương tiện; CTM cung cấp xe + NL | SOẠN THẢO |
+| `BUOC2_PLD_Khoan_DaoTao_CoPhuongTien_v1.md` | PL D — Khoán đào tạo có phương tiện; HKD/CNKD tự lo xe; thuế khoán 7% | SOẠN THẢO |
+| `BUOC2_PLE_Khoan_TronGoi_PhapNhan_v1.md` | PL E — Khoán trọn gói pháp nhân; GV + xe + NL; HĐ GTGT điện tử bắt buộc | SOẠN THẢO |
+| `BUOC2_PLF_ChoThue_Xe_v1.md` | PL F — Cho thuê xe tập lái; thanh toán theo quý; thuế khoán 10% HKD | SOẠN THẢO |
+| `BUOC3_PLCK_CamKet_Khoan_TheoKy_v1.md` | PL CK — Cam kết khoán theo kỳ; đặt cọc TK 33871; tạm ứng TK 141 | SOẠN THẢO |
+| `BUOC4_QuyTrinh_ThucHien_QuyetToan_v1.md` | Quy trình thực hiện & quyết toán — 4 giai đoạn; checklist BM-07 | SOẠN THẢO |
+| `BUOC5_MucChi_DTLK_HopTacXe_HoaHong_v1.md` | Bảng định mức chi nội bộ — TGĐ phê duyệt; không phát hành cho đối tác | SOẠN THẢO |
 
 ────────────────────────────────────────────────────────────
 
-## E. CÁC FILE HỖ TRỢ KHÁC (đã xác nhận có trong project knowledge)
+## E. `03_THAM_KHAO/`
 
-| File | Mô tả |
-|---|---|
-| `Run_QuyUocVanBanCTM.md` | Quy ước văn phong CTM (đã liệt kê ở mục A) |
+| File | Mô tả | Trạng thái |
+|---|---|---|
+| `KimChiNamThue2026_CTM.md` | Kim chỉ nam thuế 2026 — tổng hợp nghĩa vụ thuế CTM; bảng hành động ưu tiên | SOẠN THẢO |
+| `KimChiNam_ThueTNDN_CTM_2026.md` | Phân tích chi tiết TNDN 2026 — ưu đãi tiềm năng; lịch triển khai; hành động khẩn | SOẠN THẢO |
+
+> **Tham chiếu trong hệ thống (chưa sync thành file riêng):** CV 2380/LDO-QLDN2 (Cục Thuế Lâm Đồng phúc đáp CTM); CV 6493/CT-CS (Tổng cục Thuế hướng dẫn ĐT lái xe).
+
+────────────────────────────────────────────────────────────
+
+## F. `04_NHAT_KY_THONG_NHAT/`
+
+> Thư mục lưu biên bản tóm tắt các nội dung đã chốt sau mỗi phiên làm việc.
+> **Hiện tại: chưa có file nào được sync.** Thư mục chờ cập nhật.
 
 ────────────────────────────────────────────────────────────
 
@@ -162,9 +161,10 @@
 | Ngày | Nội dung |
 |---|---|
 | 16/05/2026 | Khởi tạo INDEX.md lần đầu |
-| 17/05/2026 | Cập nhật toàn bộ sau sync HT_TaiChinh_KeToan; bổ sung P6, P7, PL01, PL02 |
-| 19/05/2026 | **Làm sạch & hoàn thiện INDEX** — kiểm tra thực tế project knowledge; bổ sung cấu trúc 00_PHAP_LY đầy đủ; cập nhật 7 file BM + PL07 trong 02_BIEU_MAU_HT; bổ sung thư mục HOPDONG (10 file HĐ HTLK 5 bước); phát hiện P4 v2.0 (file mới) và PLC trong HOPDONG; cập nhật ghi chú P4 tồn tại 2 phiên bản |
+| 17/05/2026 | Cập nhật sau sync HT_TaiChinh_KeToan; bổ sung P6, P7, PL01, PL02 |
+| 19/05/2026 | Làm sạch & hoàn thiện — kiểm tra thực tế project knowledge; bổ sung 00_PHAP_LY đầy đủ; cập nhật BM + PL07; bổ sung thư mục HOPDONG 10 file; phát hiện P4 v2.0 |
+| **21/05/2026** | **Cập nhật toàn diện v4.0** — Bổ sung thư mục 03 và 04; đồng loạt điều chỉnh trạng thái về SOẠN THẢO; chỉ giữ PL01 và PL02 là HOÀN THÀNH DỰ THẢO; tái cấu trúc INDEX theo thực tế sync |
 
 ────────────────────────────────────────────────────────────
-*INDEX.md — Phiên bản 3.0 — 19/05/2026*
+*INDEX.md — Phiên bản 4.0 — 21/05/2026*
 *Quản lý: CFO-AI CTM | Người phê duyệt: Tổng Giám đốc — Vũ Hồng Phong*
