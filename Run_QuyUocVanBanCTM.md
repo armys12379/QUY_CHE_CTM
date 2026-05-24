@@ -1,5 +1,5 @@
 # QUY ƯỚC VĂN PHONG TRÌNH BÀY VĂN BẢN CTM
-*(Tách từ CLAUDE.md — Cập nhật 17/05/2026 — Căn cứ file MauVanPhong.docx đã thống nhất)*
+*(Cập nhật 17/05/2026 — Căn cứ file MauVanPhong.docx đã thống nhất)*
 
 ────────────────────────────────────────────────────────────
 
